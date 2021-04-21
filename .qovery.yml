@@ -1,0 +1,11 @@
+---
+application:
+  name: "proxy"
+  project: "proxy"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-proxy"
+  routes:
+  - application_name: "proxy"
+    paths:
+    - "/*"
